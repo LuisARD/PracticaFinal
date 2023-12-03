@@ -4,14 +4,14 @@ include 'data/DBGestLib.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $fecha = $_POST['fecha'];
     $correo = $_POST['correo'];
-    $nombre = $_POST['nombre'];
     $asunto = $_POST['asunto'];
+    $nombre = $_POST['nombre'];
     $comentario = $_POST['comentario'];
 
     $DBGestion = new DBGestLib();
 
     try {
-        $nuevoContactoID = $DBGestion->insertContacto($fecha, $correo, $nombre, $asunto, $comentario);
+        $nuevoContactoID = $DBGestion->insertContacto($fecha, $correo, $asunto, $nombre, $comentario);
         if ($nuevoContactoID) {
             // Hacer algo si se inserta correctamente
             // Por ejemplo, redireccionar a una página de éxito
@@ -25,7 +25,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -55,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#contact">Ingresar Usuario</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#search">Buscar Usuario</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#search">Buscar Autores</a></li>
                         <li class="nav-item"><a class="nav-link" href="obrasliterarias.php">Obras Literarias</a></li>
                     </ul>
                 </div>
@@ -91,17 +90,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <!-- nomre input-->
                     <div class="form-floating mb-3">
                         <input class="form-control" id="name" name="nombre" type="text" placeholder="Enter your name..." required />
-                        <label for="name">Nombre Completo</label>
+                        <label for="nombre">Nombre Completo</label>
                     </div>
                     <!-- Email input-->
                     <div class="form-floating mb-3">
                         <input class="form-control" id="email" name="correo" type="email" placeholder="name@example.com" required />
-                        <label for="email">Correo Electrónico</label>
+                        <label for="correo">Correo Electrónico</label>
                     </div>
                     <!-- Fecha input-->
                     <div class="form-floating mb-3">
                         <input class="form-control" id="date" name="fecha" type="date" placeholder="año-mes-dia" required />
-                        <label for="date">Fecha</label>
+                        <label for="fecha">Fecha</label>
                     </div>
                     <!-- Asunto-->
                     <div class="form-floating mb-3">
@@ -110,7 +109,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </div>
                     <!-- Comentario-->
                     <div class="form-floating mb-3">
-                     <label for="pic">Comentario</label>
+                     <label for="comentario">Comentario</label>
                       <textarea class="form-control"   id="comentario" name="comentario" rows="4" cols="50" maxlength="100" required></textarea>
                     </div>
                     <!-- Submit Button-->

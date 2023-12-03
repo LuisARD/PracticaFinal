@@ -46,13 +46,13 @@ class DBGestLib {
 
      public function insertContacto($nombre, $correo, $asunto, $fecha, $comentario) {
         $objBD = $this->getConexion();
-        $sql = "INSERT INTO Contactos (fecha, nombre, correo, asunto, comentario) VALUES (:fecha, :nombre, :correo, :asunto, :comentario)";
+        $sql = "INSERT INTO Contactos (fecha, correo, asunto, nombre, comentario) VALUES (:fecha, :correo, :asunto, :nombre, :comentario)";
         $stmt = $objBD->prepare($sql);
 
         $stmt->bindParam(':fecha', $fecha);
-        $stmt->bindParam(':nombre', $nombre);
         $stmt->bindParam(':correo', $correo);
-        $stmt->bindParam(':asunto', $asunto);
+         $stmt->bindParam(':asunto', $asunto);
+        $stmt->bindParam(':nombre', $nombre);
         $stmt->bindParam(':comentario', $comentario);
 
         try {
