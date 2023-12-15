@@ -1,0 +1,326 @@
+{
+  "id": "b644317a-bf18-47f2-b761-10823f45b252",
+  "version": "2.0",
+  "name": "Biblioteca Virtual L&A",
+  "url": "http://luisbiblioteca.free.nf",
+  "tests": [{
+    "id": "a52d3b59-98ac-43dc-a1d3-5988887e25fb",
+    "name": "Prueba de Usabilidad",
+    "commands": [{
+      "id": "8cf76432-f96d-4d67-ae09-f8f90792f3df",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b869225a-f05d-4010-8d9b-9eafea35a2f9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x702",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84df664f-dc96-4862-8837-1ba287ee85f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex > .btn",
+      "targets": [
+        ["css=.d-flex > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Conocer mas acerca de los autores')]", "xpath:link"],
+        ["xpath=//section[@id='search']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'buscarusuario.php')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d3a43de-1733-49ac-9667-c406f63d100a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler-icon",
+      "targets": [
+        ["css=.navbar-toggler-icon", "css:finder"],
+        ["xpath=//nav[@id='mainNav']/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "649143da-971a-49e8-bbe5-aa482ff506f9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Biblioteca Virtual L&A",
+      "targets": [
+        ["linkText=Biblioteca Virtual L&A", "linkText"],
+        ["css=.navbar-brand", "css:finder"],
+        ["xpath=//a[contains(text(),'Biblioteca Virtual L&A')]", "xpath:link"],
+        ["xpath=//nav[@id='mainNav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'index.php')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Biblioteca Virtual L&A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bba9c31e-1608-4b25-8d63-e22211098abf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler-icon",
+      "targets": [
+        ["css=.navbar-toggler-icon", "css:finder"],
+        ["xpath=//nav[@id='mainNav']/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64e11338-c795-4e41-bc0b-780b26336885",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Obras Literarias",
+      "targets": [
+        ["linkText=Obras Literarias", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Obras Literarias')]", "xpath:link"],
+        ["xpath=//div[@id='navbarResponsive']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'obrasliterarias.php')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Obras Literarias')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cf8d17e-c88c-42b0-a873-98d37582af97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler",
+      "targets": [
+        ["css=.navbar-toggler", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//nav[@id='mainNav']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a45276dd-3a90-4cd4-9be2-363dc95f811a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Biblioteca Virtual L&A",
+      "targets": [
+        ["linkText=Biblioteca Virtual L&A", "linkText"],
+        ["css=.navbar-brand", "css:finder"],
+        ["xpath=//a[contains(text(),'Biblioteca Virtual L&A')]", "xpath:link"],
+        ["xpath=//nav[@id='mainNav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'index.php')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Biblioteca Virtual L&A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbea3035-b692-4cae-80fd-32904e0cf79a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler-icon",
+      "targets": [
+        ["css=.navbar-toggler-icon", "css:finder"],
+        ["xpath=//nav[@id='mainNav']/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f8d24c4-85a9-4884-8844-d0f08ab1c1b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tiendas",
+      "targets": [
+        ["linkText=Tiendas", "linkText"],
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Tiendas')]", "xpath:link"],
+        ["xpath=//div[@id='navbarResponsive']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'tiendas.php')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tiendas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce5f50c8-df8a-470e-9c6f-322193ba98ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler-icon",
+      "targets": [
+        ["css=.navbar-toggler-icon", "css:finder"],
+        ["xpath=//nav[@id='mainNav']/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98a4b105-10d5-4c51-8e08-a678b9d6b2dc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Biblioteca Virtual L&A",
+      "targets": [
+        ["linkText=Biblioteca Virtual L&A", "linkText"],
+        ["css=.navbar-brand", "css:finder"],
+        ["xpath=//a[contains(text(),'Biblioteca Virtual L&A')]", "xpath:link"],
+        ["xpath=//nav[@id='mainNav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'index.php')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Biblioteca Virtual L&A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a81006f4-6d7a-4591-ba85-02643bdd49c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=nombre", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc9931c1-6678-4819-9d25-c9405330d016",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=nombre", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Santos"
+    }, {
+      "id": "d02cef6a-1fa8-44cc-8fe7-d4064e3b56d6",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=correo", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "santos@gmail.com"
+    }, {
+      "id": "eb5bbc01-427e-4e9f-a8a4-6a620ba518de",
+      "comment": "",
+      "command": "click",
+      "target": "id=date",
+      "targets": [
+        ["id=date", "id"],
+        ["name=fecha", "name"],
+        ["css=#date", "css:finder"],
+        ["xpath=//input[@id='date']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a29123ea-b862-471f-9ca9-e3874aab6afb",
+      "comment": "",
+      "command": "type",
+      "target": "id=date",
+      "targets": [
+        ["id=date", "id"],
+        ["name=fecha", "name"],
+        ["css=#date", "css:finder"],
+        ["xpath=//input[@id='date']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "2023-12-12"
+    }, {
+      "id": "fd6ee55e-1b20-4a69-acce-a4be53b78727",
+      "comment": "",
+      "command": "click",
+      "target": "id=asunto",
+      "targets": [
+        ["id=asunto", "id"],
+        ["name=asunto", "name"],
+        ["css=#asunto", "css:finder"],
+        ["xpath=//input[@id='asunto']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64649cd6-6374-4765-9001-e70cfac2c6de",
+      "comment": "",
+      "command": "type",
+      "target": "id=asunto",
+      "targets": [
+        ["id=asunto", "id"],
+        ["name=asunto", "name"],
+        ["css=#asunto", "css:finder"],
+        ["xpath=//input[@id='asunto']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Urgencia"
+    }, {
+      "id": "d3264ae4-3500-4592-a059-39a7fd7675a3",
+      "comment": "",
+      "command": "type",
+      "target": "id=comentario",
+      "targets": [
+        ["id=comentario", "id"],
+        ["name=comentario", "name"],
+        ["css=#comentario", "css:finder"],
+        ["xpath=//textarea[@id='comentario']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div[5]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Necesito hablar con alguien urgente"
+    }, {
+      "id": "7f911500-d75f-45b3-8090-9dde0c9a8c08",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitButton",
+      "targets": [
+        ["id=submitButton", "id"],
+        ["css=#submitButton", "css:finder"],
+        ["xpath=//button[@id='submitButton']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb05eb1e-3ceb-4367-8d30-b8a03aa4cd1c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Biblioteca Virtual L&A",
+      "targets": [
+        ["linkText=Biblioteca Virtual L&A", "linkText"],
+        ["css=.navbar-brand", "css:finder"],
+        ["xpath=//a[contains(text(),'Biblioteca Virtual L&A')]", "xpath:link"],
+        ["xpath=//nav[@id='mainNav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'index.php')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Biblioteca Virtual L&A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d37e49fa-2b27-4437-83a2-bf5bf097563e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f4567edd-c3bd-4391-b1d5-d2bf5b70f85e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a52d3b59-98ac-43dc-a1d3-5988887e25fb"]
+  }],
+  "urls": ["http://luisbiblioteca.free.nf/"],
+  "plugins": []
+}
