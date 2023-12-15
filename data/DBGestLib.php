@@ -96,7 +96,20 @@ class DBGestLib {
         }
     }
     
+    public function getTiendas() {
+        $objBD = $this->getConexion();
+        $sql = "SELECT nombre_tienda, direcc_tienda, ciudad, pais, cod_postal FROM tiendas";
     
+        try {
+            $statement = $objBD->prepare($sql);
+            $statement->execute();
+            $resultados = $statement->fetchAll(PDO::FETCH_ASSOC);
+    
+            return $resultados;
+        } catch (PDOException $e) {
+            return false; // Si hay algún error, devuelve falso
+        }
+    }
 
 }
 ?>
